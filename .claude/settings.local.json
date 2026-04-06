@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.anoukdesigns.nl)",
+      "Bash(brew install:*)",
+      "Bash(/opt/homebrew/bin/brew install:*)",
+      "Bash(/usr/local/bin/brew install:*)",
+      "Bash(python3 -c \"import subprocess; subprocess.run\\([''pip3'',''install'',''--user'',''fpdf2''], capture_output=True\\)\")",
+      "Bash(python3 -c \"from fpdf import FPDF; print\\(''fpdf2 ok''\\)\")",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_press_key",
+      "mcp__playwright__browser_resize",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_network_requests"
+    ]
+  }
+}
